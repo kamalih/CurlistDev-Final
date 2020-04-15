@@ -1,0 +1,1305 @@
+/* iPad Pro 11" */
+#ipad {
+    position: relative;
+    width: 1194px;
+    height: 834px;
+    background: #BAABDA;
+}
+
+#ipad2 {
+    position: relative;
+    width: 1194px;
+    height: 834px;
+    overflow: hidden;
+
+    background: #F9F9F9;
+
+}
+
+#curlistlogo {
+    position: absolute;
+    width: 139px;
+    height: 42px;
+    left: 30px;
+    top: 35px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #A1D2DE;
+}
+
+/* curlist. */
+#curlist {
+    position: absolute;
+    width: 184px;
+    height: 82px;
+    left: 505px;
+    top: 246px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 82px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#exit {
+    position: absolute;
+    width: 56.99px;
+    height: 89.31px;
+    left: 1088px;
+    top: 34.69px;
+
+}
+
+/* curlist. Subset */
+#logo1 {
+    font-family: Nunito;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70.3125px;
+    letter-spacing: 0px;
+    align-items: normal;
+    color: rgb(255, 255, 255);
+}
+
+/* Rectangle 1 */
+#rectangle {
+    position: absolute;
+    width: 567px;
+    height: 94px;
+    left: 323px;
+    top: 378px;
+
+    background: #E7E7E7;
+    border-radius: 16px;
+}
+
+/* Enter Your Name */
+#textbox {
+
+    position: absolute;
+    height: 92px;
+    width: 567px;
+    background: transparent;
+    border: none;
+    outline: none;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+
+    color: #000000;
+}
+
+
+/* Vector */
+#button {
+
+    position: absolute;
+    left: 86.52%;
+    right: 4.77%;
+    top: 82.97%;
+    bottom: 4.56%;
+    border-radius: 2px;
+}
+
+#arrow {
+    position: absolute;
+    left: 87.86%;
+    right: 6.11%;
+    top: 86.09%;
+    bottom: 7.67%;
+
+}
+
+#backbutton {
+
+    position: absolute;
+    width: 104px;
+    height: 104px;
+    left: 47px;
+    top: 692px;
+}
+
+#welcome {
+    position: absolute;
+    width: 594px;
+    height: 42px;
+    left: 300px;
+    top: 35px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: center;
+
+    color: #494949;
+}
+
+/* Let’s start creating your character. */
+#t1 {
+
+    position: absolute;
+    width: 513px;
+    height: 60px;
+    left: 340px;
+    top: 187px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #4B4B4B;
+
+}
+
+/*Slider*/
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    position: absolute;
+    background: linear-gradient(90deg, #F3E7DB 2.03%, #E8C6A6 25.45%, #CA8440 50.15%, #9B5B1C 73.87%, #4E2600 100%);
+    outline: none;
+    width: 455px;
+    height: 27px;
+    left: 531px;
+    top: 424px;
+    border-radius: 25px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 45px;
+    height: 45px;
+    box-shadow: 0px 10px 20px rgba(92, 92, 92, 0.25);
+    border-radius: 25px;
+    background: White;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 45px;
+    height: 45px;
+    box-shadow: 0px 10px 20px rgba(92, 92, 92, 0.25);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/*
+#sliderbar {
+
+    position: absolute;
+    width: 455px;
+    height: 27px;
+    left: 531px;
+    top: 424px;
+
+    background: linear-gradient(90deg, #F3E7DB 2.03%, #E8C6A6 25.45%, #CA8440 50.15%, #9B5B1C 73.87%, #4E2600 100%);
+    border-radius: 25px;
+}
+
+#slider {
+
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 554px;
+    top: 415px;
+
+
+    box-shadow: 0px 10px 20px rgba(92, 92, 92, 0.25);
+    border-radius: 25px;
+
+}*/
+
+/* Face and Body */
+#t2 {
+
+    position: absolute;
+    width: 236px;
+    height: 35px;
+    left: 641px;
+    top: 357px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #4B4B4B;
+}
+
+/* Eyes */
+#t3 {
+    position: absolute;
+    width: 183px;
+    height: 35px;
+    left: 669px;
+    top: 509px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #4B4B4B;
+
+}
+
+#t4 {
+    position: absolute;
+    width: 236px;
+    height: 35px;
+    left: 691px;
+    top: 273px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #4B4B4B;
+
+}
+
+#t5 {
+    position: absolute;
+    width: 513px;
+    height: 60px;
+    left: 345px;
+    top: 610px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #4B4B4B;
+}
+
+#t6 {
+    position: absolute;
+    width: 488px;
+    height: 58px;
+    left: 597px;
+    top: 295px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #4B4B4B;
+
+
+}
+
+/* Rectangle 11 */
+#hazeleyes {
+    position: absolute;
+    width: 100px;
+    height: 158px;
+    left: 659px;
+    top: 570px;
+
+    background: #A37F5A;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+/* Rectangle 12 */
+#greeneyes {
+    position: absolute;
+    width: 100px;
+    height: 158px;
+    left: 771px;
+    top: 570px;
+
+    background: #78B46E;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+/* Rectangle 13 */
+#blueeyes {
+
+    position: absolute;
+    width: 101px;
+    height: 158px;
+    left: 885px;
+    top: 570px;
+
+    background: #5E9AB3;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+/* Rectangle 14 */
+#browneyes {
+    position: absolute;
+    width: 101px;
+    height: 158px;
+    left: 544px;
+    top: 570px;
+
+    background: #5B3612;
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+
+/* Vector */
+#body {
+    position: absolute;
+    left: 7.24%;
+    top: 42.9%;
+    bottom: -3.29%;
+
+}
+
+/* Vector */
+#neck {
+
+    position: absolute;
+    left: 17%;
+    right: 72.05%;
+    top: 74.59%;
+    bottom: 19.09%;
+}
+
+#face {
+    position: absolute;
+    left: 11.04%;
+    right: 65.33%;
+    top: 43.5%;
+    bottom: 23.23%;
+
+
+}
+
+/* Vector */
+#righteye {
+
+    position: absolute;
+    left: 27.95%;
+    right: 70.36%;
+    top: 58.58%;
+    bottom: 37.79%;
+
+}
+
+/* Vector */
+#lefteye {
+
+    position: absolute;
+    left: 16.13%;
+    right: 82.18%;
+    top: 58.58%;
+    bottom: 37.79%;
+
+}
+
+/* Vector */
+#smile {
+    position: absolute;
+    left: 18.66%;
+    right: 72.9%;
+    top: 67.04%;
+    bottom: 29.3%;
+}
+
+/* Ellipse 1 */
+#leftear {
+    position: absolute;
+    width: 58.87px;
+    height: 58.87px;
+    left: 110.05px;
+    top: 479.39px;
+
+}
+
+/* Ellipse 2 */
+#rightear {
+    position: absolute;
+    width: 58.87px;
+    height: 58.87px;
+    left: 381.51px;
+    top: 479.39px;
+
+}
+
+
+/* Vector */
+#shirt {
+    position: absolute;
+    width: 393.83px;
+    height: 182.56px;
+    left: 75.94px;
+    top: 678.69px;
+}
+
+/* Vector */
+#sleeve1 {
+    position: absolute;
+    left: 6.36%;
+    right: 86.22%;
+    top: 95.61%;
+    bottom: 0.93%;
+
+}
+
+/* Vector */
+#sleeve2 {
+    position: absolute;
+    left: 31.93%;
+    right: 60.66%;
+    top: 95.61%;
+    bottom: 0.93%;
+
+
+}
+
+#r5 {
+    position: absolute;
+    width: 130px;
+    height: 156px;
+    left: 549px;
+    top: 327px;
+
+    background: #E3E2E1;
+    border-radius: 11px;
+}
+
+#r6 {
+    position: absolute;
+    width: 131px;
+    height: 154px;
+    left: 685px;
+    top: 329px;
+
+    background: #E3E2E1;
+    border-radius: 11px;
+}
+
+#r7 {
+
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    left: 824px;
+    top: 329px;
+
+    background: #E3E2E1;
+    border-radius: 11px;
+}
+
+#r8 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    left: 961px;
+    top: 329px;
+
+    background: #E3E2E1;
+    border-radius: 11px;
+
+}
+
+#r9 {
+    position: absolute;
+    width: 131px;
+    height: 154px;
+    left: 548px;
+    top: 490px;
+
+    background: #E3E2E1;
+    border-radius: 11px;
+}
+
+#r10 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    left: 686px;
+    top: 489px;
+
+    background: #E3E2E1;
+    border-radius: 11px;
+
+}
+
+#r11 {
+    position: absolute;
+    width: 130px;
+    height: 156px;
+    left: 961px;
+    top: 488px;
+
+    background: #E3E2E1;
+    border-radius: 11px;
+}
+
+#r12 {
+    position: absolute;
+    width: 130px;
+    height: 156px;
+    left: 824px;
+    top: 488px;
+
+    background: #E3E2E1;
+    border-radius: 11px;
+
+}
+
+#face1 {
+
+    position: absolute;
+    left: 48.59%;
+    right: 45.06%;
+    top: 46.96%;
+    bottom: 46.29%;
+
+}
+
+#face1-1 {
+
+    position: absolute;
+    left: 47.97%;
+    right: 49.13%;
+    top: 46.99%;
+    bottom: 46.42%;
+}
+
+#face2 {
+    position: absolute;
+    left: 60.09%;
+    right: 33.56%;
+    top: 47.28%;
+    bottom: 45.97%;
+
+}
+
+#face2-1 {
+
+    position: absolute;
+    left: 59.48%;
+    right: 37.63%;
+    top: 47.31%;
+    bottom: 46.1%;
+
+}
+
+#face3 {
+    position: absolute;
+    left: 71.67%;
+    right: 21.98%;
+    top: 47.81%;
+    bottom: 45.44%;
+}
+
+#face3-1 {
+
+    position: absolute;
+    left: 71.05%;
+    right: 26.05%;
+    top: 47.84%;
+    bottom: 45.57%;
+
+
+}
+
+#face4 {
+    position: absolute;
+    left: 83.05%;
+    right: 10.28%;
+    top: 47.28%;
+    bottom: 45.72%;
+}
+
+#face4-1 {
+    position: absolute;
+    left: 82.41%;
+    right: 14.56%;
+    top: 47.31%;
+    bottom: 45.85%;
+}
+
+#face5 {
+
+    position: absolute;
+    left: 48.67%;
+    right: 45.18%;
+    top: 66.48%;
+    bottom: 26.98%;
+
+
+}
+
+#face5-1 {
+    position: absolute;
+    left: 48.07%;
+    right: 49.12%;
+    top: 66.51%;
+    bottom: 27.1%;
+
+}
+
+#face6 {
+
+    position: absolute;
+    left: 60.47%;
+    right: 33.94%;
+    top: 64.14%;
+    bottom: 29.92%;
+}
+
+#face6-1 {
+    position: absolute;
+    left: 59.93%;
+    right: 37.53%;
+    top: 64.17%;
+    bottom: 30.03%;
+
+}
+
+#face7 {
+    position: absolute;
+    left: 71.77%;
+    right: 23.17%;
+    top: 63.23%;
+    bottom: 29.52%;
+}
+
+#leftear7 {
+    position: absolute;
+    width: 12.96px;
+    height: 14.04px;
+    left: 851.52px;
+    top: 553.28px;
+
+}
+
+#rightear7 {
+    position: absolute;
+    width: 12.96px;
+    height: 14.04px;
+    left: 910.92px;
+    top: 553.28px;
+}
+
+#face8 {
+    position: absolute;
+    left: 83%;
+    right: 10.45%;
+    top: 65.34%;
+    bottom: 27.7%;
+
+}
+
+#face8-1 {
+    position: absolute;
+    left: 82.37%;
+    right: 14.65%;
+    top: 65.37%;
+    bottom: 27.83%;
+
+}
+
+#hair1 {
+    position: absolute;
+    left: 47.07%;
+    right: 44.05%;
+    top: 43.53%;
+    bottom: 46.76%;
+
+}
+
+#hair2 {
+    position: absolute;
+    left: 58.46%;
+    right: 32.58%;
+    top: 43.41%;
+    bottom: 46.88%;
+
+}
+
+#hair3 {
+
+    position: absolute;
+    left: 70.02%;
+    right: 20.93%;
+    top: 43.56%;
+    bottom: 47.06%;
+}
+
+#hair3-1 {
+    position: absolute;
+    left: 70.02%;
+    right: 25.46%;
+    top: 43.56%;
+    bottom: 47.06%;
+}
+
+#hair4 {
+    position: absolute;
+    left: 82.5%;
+    right: 10.47%;
+    top: 43.53%;
+    bottom: 50.24%;
+
+}
+
+#hair4-1 {
+
+    position: absolute;
+    left: 82.5%;
+    right: 13.99%;
+    top: 43.53%;
+    bottom: 50.24%;
+}
+
+#hair4-2 {
+    position: absolute;
+    left: 83.58%;
+    right: 14.49%;
+    top: 45.08%;
+    bottom: 52.16%;
+}
+
+#hair4-3 {
+    position: absolute;
+    left: 84.42%;
+    right: 10.39%;
+    top: 44.96%;
+    bottom: 51.92%;
+}
+
+#hair5 {
+    position: absolute;
+    left: 47.38%;
+    right: 44.56%;
+    top: 61.64%;
+    bottom: 31.07%;
+}
+
+#hair5-1 {
+    position: absolute;
+    left: 47.73%;
+    right: 44.81%;
+    top: 63.87%;
+    bottom: 31.55%;
+
+}
+
+#hair6R {
+    position: absolute;
+    left: 62.98%;
+    right: 32.75%;
+    top: 62.56%;
+    bottom: 25.45%;
+}
+
+#hair6L {
+    position: absolute;
+    left: 58.71%;
+    right: 37.02%;
+    top: 62.56%;
+    bottom: 25.45%;
+
+}
+
+#hair6-3 {
+    position: absolute;
+    left: 59.86%;
+    right: 34.06%;
+    top: 61.03%;
+    bottom: 33.91%;
+}
+
+#hair6-4 {
+    position: absolute;
+    left: 59.86%;
+    right: 37.02%;
+    top: 61.03%;
+    bottom: 33.91%;
+
+}
+
+#hair7R {
+    position: absolute;
+    left: 74.39%;
+    right: 20.81%;
+    top: 67.64%;
+    bottom: 25.76%;
+
+}
+
+#hair7L {
+    position: absolute;
+    left: 69.6%;
+    right: 25.61%;
+    top: 67.64%;
+    bottom: 25.76%;
+
+}
+
+#hair7-1 {
+
+    position: absolute;
+    left: 70.77%;
+    right: 25.61%;
+    top: 61.03%;
+    bottom: 32.11%;
+
+}
+
+#hair7-2 {
+
+    position: absolute;
+    left: 74.39%;
+    right: 21.99%;
+    top: 61.03%;
+    bottom: 32.11%;
+}
+
+#hair8 {
+    position: absolute;
+    left: 82.08%;
+    right: 10.12%;
+    top: 61.79%;
+    bottom: 25.99%;
+}
+
+#hair8-1 {
+    position: absolute;
+    left: 82.08%;
+    right: 14.15%;
+    top: 61.75%;
+    bottom: 26.02%;
+
+}
+
+/* BigHair*/
+
+.shortbushy1hairB {
+    position: absolute;
+    left: 9.09%;
+    top: 33.95%;
+}
+
+.shortbushy1hairT {
+    position: absolute;
+    left: 13.45%;
+    top: 39.73%;
+}
+
+.shortbushy2hairB {
+    position: absolute;
+    left: 7.09%;
+    top: 30.95%;
+}
+
+.shortbushy2hairT {
+    position: absolute;
+    left: 7.95%;
+    top: 37.72%;
+}
+
+.wavehairT {
+    position: absolute;
+    left: 7.45%;
+    top: 34.73%;
+}
+
+.longwavehairB {
+    position: absolute;
+    left: 3.09%;
+    top: 40.95%;
+}
+
+.longwavehairT {
+    position: absolute;
+    left: 8.5%;
+    top: 33.72%;
+}
+
+.biglonghairB {
+    position: absolute;
+    left: 1.42%;
+    top: 62.95%;
+}
+
+.biglonghairT {
+    position: absolute;
+    left: 6.45%;
+    top: 32.73%;
+}
+
+.bigBushy1hairB {
+    position: absolute;
+    left: 3.4%;
+    top: 34.73%;
+
+}
+
+.bigBushy2hairB {
+    position: absolute;
+    left: 2.6%;
+    top: 34.73%;
+
+}
+
+.bigBushy3hairB {
+    position: absolute;
+    left: 3.4%;
+    top: 31.93%;
+}
+
+#brown {
+    position: absolute;
+    width: 80px;
+    height: 63px;
+    left: 733px;
+    top: 687px;
+    background: #613B14;
+
+}
+
+#black {
+    position: absolute;
+    width: 79px;
+    height: 63px;
+    left: 654px;
+    top: 687px;
+    border-radius: 10px 0px 0px 10px;
+    background: #000000;
+
+}
+
+#red {
+    position: absolute;
+    width: 80px;
+    height: 63px;
+    left: 812px;
+    top: 687px;
+    background: #8C4734;
+
+}
+
+#blonde {
+    position: absolute;
+    width: 79px;
+    height: 63px;
+    left: 892px;
+    top: 687px;
+    background: #E0B887;
+
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+#popup {
+    position: absolute;
+    width: 505px;
+    height: 568px;
+    left: 345px;
+    top: 157px;
+
+    background: #BAABDA;
+    border-radius: 19px;
+
+}
+
+#trophy {
+    position: absolute;
+    width: 316px;
+    height: 316px;
+    left: 439px;
+    top: 259px;
+}
+
+#trophy1 {
+    position: absolute;
+    left: 0%;
+    right: -0.16%;
+    top: 5.56%;
+    bottom: 11.11%;
+
+}
+
+#trophy2 {
+    position: absolute;
+    left: 19.79%;
+    right: 19.1%;
+    top: 0.64%;
+    bottom: 31.2%;
+
+}
+
+#trophy3 {
+    position: absolute;
+    left: 25%;
+    right: 24.95%;
+    top: 83.33%;
+    bottom: 2.78%;
+}
+
+#trophy4 {
+
+    position: absolute;
+    left: 19.44%;
+    right: 19.43%;
+    top: 91.67%;
+    bottom: 0%;
+}
+
+#star1 {
+
+    position: absolute;
+    left: 25.38%;
+    right: 62.14%;
+    top: 14.99%;
+    bottom: 67.27%;
+}
+
+#star2 {
+    position: absolute;
+    left: 63.48%;
+    right: 24.04%;
+    top: 74.58%;
+    bottom: 7.67%;
+
+}
+
+#startbtn {
+    position: absolute;
+    width: 431px;
+    height: 216px;
+    left: 631px;
+    top: 374px;
+
+    background: #A1D2DE;
+    border-radius: 15px;
+}
+
+#start {
+    position: absolute;
+    width: 234px;
+    height: 136px;
+    left: 730px;
+    top: 414px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 136px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+#pointer {
+
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    left: 472px;
+    top: 230px;
+}
+
+#pointer1 {
+
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    left: 650px;
+    top: 215px;
+}
+
+#pointer2 {
+
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    left: 830px;
+    top: 235px;
+}
+
+#pointer3 {
+
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    left: 770px;
+    top: 250px;
+}
+
+#pointer4 {
+
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    left: 685px;
+    top: 240px;
+}
+
+#pointer5 {
+
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    left: 500px;
+    top: 320px;
+}
+
+pointer7 {
+
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    left: 485px;
+    top: 260px;
+
+}
+
+#towel {
+    position: absolute;
+    width: 244px;
+    height: 112px;
+    left: 151px;
+    top: 775px;
+
+}
+
+#speech {
+    position: absolute;
+    width: 545px;
+    height: 316px;
+    left: 470px;
+    top: 88px;
+}
+
+#speech8 {
+    position: absolute;
+    width: 683px;
+    height: 316px;
+    left: 328px;
+    top: 41px;
+}
+
+
+#shower {
+    position: absolute;
+    width: 560px;
+    height: 390px;
+    left: -4px;
+    top: 25px;
+
+}
+
+#bubbles {
+    position: absolute;
+    width: 506.98px;
+    height: 291.61px;
+    left: 12px;
+    top: 200px;
+}
+
+#conditioner {
+    position: absolute;
+    width: 139px;
+    height: 123.51px;
+    left: 210px;
+    top: 230px;
+}
+
+#sponge {
+    position: absolute;
+    right: 63%;
+    top: 43%;
+    width: 820px;
+    height: 520px;
+
+}
+
+#showerhead {
+    position: absolute;
+    width: 370px;
+    height: 140px;
+    left: -4px;
+    top: 110px;
+}
+
+#haircap {
+    position: absolute;
+    left: 116px;
+    top: 290px;
+}
+
+#spraybottle {
+    position: absolute;
+    right: 64%;
+    top: 23%;
+    width: 620px;
+    height: 420px;
+}
+
+#next {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 953px;
+    top: 243px;
+}
+
+#brush {
+    position: absolute;
+    right: 70%;
+    top: 23%;
+    width: 620px;
+    height: 420px;
+}
+
+#gel {
+    position: absolute;
+    width: 139px;
+    height: 123.51px;
+    left: 210px;
+    top: 230px;
+
+}

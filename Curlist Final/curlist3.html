@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body onload="loadInfo(3)">
+
+    <!-- iPad Pro 11"-->
+    <div class="frame" id="ipad2">
+        <a href="curlist1.html">
+            <img src="img/Exit.png" id="exit">
+        </a>
+        <!-- curlist. -->
+        <div class="left top text" id="curlistlogo">curlist.</div>
+        <!-- Welcome Sophia! -->
+        <div class="left top text" id="welcome"></div>
+        <!-- Button3 -->
+        <div class="group">
+            <!-- Vector -->
+            <a href="curlist4.html">
+                <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c13b/7f6d/9064429107f03fc79bbbce8053471b22" width="104" height="104" class="scale vector" id="button">
+                <!-- Vector -->
+                <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7bc0/e83d/586bf8f853a570a6866cb5ba906a0751" width="72" height="52" class="scale vector" id="arrow">
+            </a>
+        </div>
+        <!--HairBack-->
+        <img src="Hair/backBushy3hair.png" style="" class="bigBushy3hairB scale vector" id="bighairB">
+        <!-- Vector -->
+
+        <!-- Group 18 -->
+        <div class="group">
+            <!-- Vector -->
+            <img src="" id="body">
+            <!-- Vector -->
+            <img src="" width="20" height="30" class="scale vector" id="righteye">
+            <!-- Vector -->
+            <img src="" width="20" height="30" class="scale vector" id="lefteye">
+
+        </div>
+
+
+        <!-- Shirt -->
+        <div class="group">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b4e0/eb11/b363aaf7559d777cf1458018e0019dbc" width="380" height="182" class="scale vector" id="shirt">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/711c/6d95/8f2bf2b179128e915d06b37e573df260" width="88" height="28" class="scale vector" id="sleeve1">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ffc6/308b/8dc20dd9dd20dc5c16e5dd07d071389a" width="88" height="28" class="scale vector" id="sleeve2">
+        </div>
+        <!--HairFront-->
+        <div class="group">
+            <img src="" style="" class="scale vector" id="bighairF">
+        </div>
+
+        <!-- Let’s start creating your character. -->
+        <div class="left top text" id="t1">Let’s start creating your character.</div>
+        <!-- Rectangle 5 -->
+        <div class="left top rectangle" id="r5" onclick="changeHair('r5')"></div>
+        <!-- Rectangle 6 -->
+        <div class="left top rectangle" id="r6" onclick="changeHair('r6')"></div>
+        <!-- Rectangle 7 -->
+        <div class="left top rectangle" id="r7" style="background-color: #C6E1AE" onclick="changeHair('r7')"></div>
+        <!-- Hair Type -->
+        <div class="left top text" id="t4">Hair Type</div>
+        <!-- Rectangle 8 -->
+        <div class="left top rectangle" id="r8" onclick="changeHair('r8')"></div>
+        <!-- Rectangle 11 -->
+        <div class="left top rectangle" id="r11" onclick="changeHair('r11')"></div>
+        <!-- Rectangle 12 -->
+        <div class="left top rectangle" id="r12" onclick="changeHair('r12')"></div>
+        <!-- Rectangle 9 -->
+        <div class="left top rectangle" id="r9" onclick="changeHair('r9')"></div>
+        <!-- Rectangle 10 -->
+        <div class="left top rectangle" id="r10" onclick="changeHair('r10')"></div>
+        <!-- Hair8 -->
+        <div class="group">
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5182/80a3/8688dd26c7da9033896e8430ce659b23" width="78" height="58" class="scale vector" id="face8">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/51ca/9fd0/523e760c2f1e189bd2e357856ff2f610" width="35" height="56" class="scale vector" id="face8-1">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4ef7/bee8/74d52feccf5fcf912115daf5feec04b3" width="93" height="101" class="scale vector" id="hair8">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2c9e/38fd/b058a22cb6a0dac030195e711d92bdfa" width="45" height="102" class="scale vector" id="hair8-1">
+        </div>
+        <!-- Hair1 -->
+        <div class="group">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8286/13ff/7bdea9c612923aec88dce9f6c15fdb91" width="106" height="81" class="scale vector" id="hair1">
+            <!-- Group 10 -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b0a0/76d8/475e78beddc41d4834a91f8054e20e0f" width="75" height="56" class="scale vector" id="face1">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/fdbd/1a09/863936325d5b09c7e436fb5babe36146" width="34" height="54" class="scale vector" id="face1-1">
+        </div>
+        <!-- Hair4 -->
+        <div class="group">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/ecb8/c69c/cc10b673d4b4db77001b6292bbcad640" width="84" height="52" class="scale vector" id="hair4">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0d8a/e617/bb1871007d97e6cb9a24c79b68c21d4b" width="42" height="52" class="scale vector" id="hair4-1">
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/8ad2/1a5e/ef4c3b6254b12edef53760274512e8f7" width="79" height="58" class="scale vector" id="face4">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/a5a7/60ec/a320d6481e4bf62d790f6f6a43071dc7" width="36" height="57" class="scale vector" id="face4-1">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4d5e/b5ce/b791f86ea0d6aa9590d0efbcb6096902" width="23" height="23" class="scale vector" id="hair4-2">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d3ac/dbb7/b2e6b3833a9222a2878d15ee48542f0a" width="62" height="26" class="scale vector" id="hair4-3">
+        </div>
+        <!-- Hair2 -->
+        <div class="group">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4beb/c7b0/a324f54f093efb8832a7eca6578928ae" width="107" height="81" class="scale vector" id="hair2">
+
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b0a0/76d8/475e78beddc41d4834a91f8054e20e0f" width="75" height="56" class="scale vector" id="face2">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/fdbd/1a09/863936325d5b09c7e436fb5babe36146" width="34" height="54" class="scale vector" id="face2-1">
+        </div>
+        <!-- Hair3 -->
+
+
+        <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/30f0/2f69/30f5f968fbc5ed1fc6b5ffe7a23a780e" width="108" height="78" class="scale vector" id="hair3">
+        <!-- Vector -->
+        <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5034/54df/c368dae9a6e4f490a6256d21caa97af3" width="54" height="78" class="scale vector" id="hair3-1">
+
+        <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b0a0/76d8/475e78beddc41d4834a91f8054e20e0f" width="75" height="56" class="scale vector" id="face3">
+        <!-- Vector -->
+        <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/fdbd/1a09/863936325d5b09c7e436fb5babe36146" width="34" height="54" class="scale vector" id="face3-1">
+        <!-- Hair6 -->
+        <div class="group">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/0971/cfc4/0eefe0c0245c3173e4ed65dce018839b" width="51" height="100" class="scale vector" id="hair6R">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/c45e/7457/47fe14a4be01daf7e78cb19786e3dba9" width="51" height="100" class="scale vector" id="hair6L">
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/deed/b57e/300c555b220571f08c217f1e063c4220" width="66" height="49" class="scale vector" id="face6">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/38ba/ca83/82871469f7778c3016d282f98255ad5e" width="30" height="48" class="scale vector" id="face6-1">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/3315/bcdb/9c503fc7ee1715617a808058b7b8d791" width="72" height="42" class="scale vector" id="hair6-3">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/e5ae/1d6f/a95ec4d682fb2448e952062017b60f07" width="37" height="42" class="scale vector" id="hair6-4">
+        </div>
+        <!-- Hair5 -->
+        <div class="group">
+
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4ab4/668d/3229e0187fc9982689e5e65aed912c74" width="96" height="60" class="scale vector" id="hair5">
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/b230/1025/fba925c3c541eca6978f5076063e2f2a" width="73" height="54" class="scale vector" id="face5">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d5f0/ed45/7f731fe5ef56d9dd34c46ec1e87b9828" width="33" height="53" class="scale vector" id="face5-1">
+
+
+
+
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/dc21/d757/9ef3b5002d8186c22e4e244cf8b4d417" width="89" height="38" class="scale vector" id="hair5-1">
+
+
+
+        </div>
+        <!-- Hair7 -->
+        <div class="group">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/d38b/a628/fdde54ffe8f1913ab833030630246187" width="57" height="55" class="scale vector" id="hair7L">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/2585/4224/891db2303df33fecf4728e0832e70db7" width="57" height="55" class="scale vector" id="hair7R">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/5d32/9881/7539d74f56ccb9f7ac92b4684b78e961" width="60" height="60" class="scale vector" id="face7">
+            <!-- Ellipse 1 -->
+            <div class="svg-wrapper left top ellipse" id="leftear7">
+                <svg height="14.03948974609375" width="12.959527969360352">
+                    <ellipse cx="6.479763984680176" cy="7.019744873046875" rx="6.479763984680176" ry="7.019744873046875" style="fill:rgba(253, 200, 142, 1);"></ellipse>
+                </svg>
+            </div>
+            <!-- Ellipse 2 -->
+            <div class="svg-wrapper left top ellipse" id="rightear7">
+                <svg height="14.03948974609375" width="12.959527969360352">
+                    <ellipse cx="6.479763984680176" cy="7.019744873046875" rx="6.479763984680176" ry="7.019744873046875" style="fill:rgba(253, 200, 142, 1);"></ellipse>
+                </svg>
+            </div>
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/7fdf/54f7/98d2046ceb1dfa1d96d8e0b368b11e30" width="43" height="57" class="scale vector" id="hair7-1">
+            <!-- Vector -->
+            <img src="https://s3-us-west-2.amazonaws.com/figma-alpha-api/img/4af5/3205/42db17f89a13dc7e9b5af5192a0ffde8" width="43" height="57" class="scale vector" id="hair7-2">
+        </div>
+        <div class="left top rectangle" id="brown" onclick="changeHairColor('brown')"></div>
+        <!-- Blackhair -->
+        <div class="left top rectangle" id="black" onclick="changeHairColor('black')"></div>
+        <!-- Redhair -->
+        <div class="left top rectangle" id="red" onclick="changeHairColor('red')"></div>
+        <!-- Blondehair -->
+        <div class="left top rectangle" id="blonde" onclick="changeHairColor('blonde')"></div>
+
+    </div>
+    <div class="group">
+        <a href="curlist2.html">
+            <img src="img/Button2.png" id="backbutton">
+        </a>
+    </div>
+</body>
+
+</html>
